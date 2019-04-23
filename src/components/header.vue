@@ -5,9 +5,9 @@
             <div class="font">
                 <ul>
                     <a href="/"><img class="logo" src="../assets/logo.png">WTB</a>
-                    <li class="links link-Float"><a href="#page">Shop <i class="fas fa-gift"></i></a></li>
+                    <li class="links link-Float"><a href="about">About</a></li>
+                    <li class="links link-Float"><a href="#about">Shop <i class="fas fa-gift"></i></a></li>
                     <button class="links link-Float" @click="scrollBottom">Social medias</button>
-                    <li class="links link-Float"><a href="#page">placeholder</a></li>
                     <li class="links link-Float"><a href="#page">placeholder</a></li>
                 </ul>            
             </div>
@@ -70,7 +70,7 @@ button {
 export default {
     methods: {
         scrollBottom: function(){
-            window.scrollTo(0,280);
+            window.scrollTo(0,880);
         },
     }
 }   
